@@ -266,8 +266,8 @@
     },
     {
       "path": "tools/check_metrics.py",
-      "sha256": "23e915206893ff6a80a2e948421145d3d2fe449204a2e0bb7000cd5c442bab98",
-      "bytes": 1909
+      "sha256": "343afedadc7f0f02dc15de7e5c3d55d33161de54fa12d8a48dc7101f55b75ef0",
+      "bytes": 2001
     },
     {
       "path": "tools/reproduce_report_tables.py",

@@ -26,9 +26,11 @@ class CalibrationChecks(unittest.TestCase):
         self.assertEqual(int(np.sum(scores < t)), 0)
 
     def test_identity_weighting_differs_from_utterance_weighting(self):
-        t = calibrate([0.0, 1.0, 2.0, 3.0], ["a", "a", "a", "b"], alpha=.25)
-        self.assertEqual(t, 1.0)
-        self.assertAlmostEqual((1 / 3 + 0) / 2, 1 / 6)
+        scores = [0.0, 1.0, 2.0, 3.0]
+        weighted = calibrate(scores, ["a", "a", "a", "b"], alpha=.4)
+        unweighted = calibrate(scores, ["one_group"] * 4, alpha=.4)
+        self.assertEqual(weighted, 2.0)
+        self.assertEqual(unweighted, 1.0)
 
     def test_perfect_genuine_high_ranking(self):
         result = ranking([3.0, 4.0], [0.0, 1.0])
