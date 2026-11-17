@@ -1,0 +1,7 @@
+{
+  "manuscript_sha256": "ab3ab0622486e6503ea4d92bcd061d33d36d662a4033fb93bc2323e91fde90d5",
+  "checks": 610,
+  "pass": 610,
+  "mismatches": [],
+  "description": "Summary of the archived numerical reconciliation for mapped quantities in the submitted manuscript. The manuscript and complete private working archive are not included in this code release."
+}

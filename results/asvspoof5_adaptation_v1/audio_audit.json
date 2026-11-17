@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "files": 49310,
+  "cross_role_exact_duplicates": 0,
+  "within_role_duplicate_groups": 6,
+  "windows_sha256": "843953c41a91859f6e177584bd545ecdf3c9a5ec81cd20dcf293b0a7e8fa400b",
+  "audit_rows_sha256": "589c28ddbb9b0c251b186c4acd4497408970005faa3688ec15f797147d1116ca",
+  "near_duplicate_identity_overlap_not_excluded": true
+}

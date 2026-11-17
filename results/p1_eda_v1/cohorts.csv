@@ -1,0 +1,6 @@
+cohort,speakers,bona_fide,bona_per_speaker,spoof,attacks,bona_duration_s_median,bona_duration_s_q1,bona_duration_s_q3,note
+Study 1 adaptation,86,2580,30-30,0,0,6.9175,5.34875,8.55625,"development set, unencoded"
+Study 1 calibration,40,1200,30-30,0,0,7.057499999999999,5.5825,8.62,"development set, unencoded"
+Study 1 evaluation (unencoded),60,1800,30-30,9600,16,7.2184687499999995,5.662734374999999,8.661328125,evaluation set
+Study 1 evaluation (encoded),60,5320,60-120,28810,16,7.36865625,5.8998125,8.7,evaluation set; same 60 speakers
+Study 2 confirmation,60,3000,50-50,4800,8,7.165,5.563750000000001,8.60125,"development set, unencoded; 20 enrollment + 30 test per speaker"

@@ -1,0 +1,258 @@
+{
+  "description": "Project scripts and aggregate results retained from the submitted study. Computation code is unchanged; one script has English translations of narrative output strings.",
+  "files": [
+    {
+      "path": "scripts/aasist_replication_common.py",
+      "sha256": "d52fe398e1fbfe8198d333b1d2085cef830ac0cf4d7966d209773560b4613158",
+      "bytes": 3569,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/preservation_utils.py",
+      "sha256": "9ee72328268f860674babf6eb27fe62752980b1ccacf7f4284db2a1046f3d467",
+      "bytes": 897,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/asvspoof5_metrics.py",
+      "sha256": "d21fc15f406ae3bba00a012c8fc9b154260b544d16f77604244aaf389eec36e8",
+      "bytes": 7488,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/selfcal_common.py",
+      "sha256": "42011683d3cc39827b28e5182fa1b1666b8145068bcd97ca47a6566a5ee5c3ba",
+      "bytes": 1198,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/prepare_asvspoof5_adaptation.py",
+      "sha256": "3ecb8d4335de71150d2b8fb07b22ce95c04846a40419ad050419884755adde08",
+      "bytes": 2939,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/audit_asvspoof5_adaptation_audio.py",
+      "sha256": "29dff884f49aa5198156092f078827a42b4c601ac213b3886bb423c04d3b0ac3",
+      "bytes": 2725,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/preflight_asvspoof5_adaptation.py",
+      "sha256": "fcec68449f1054078e5de46e88e34f149d88aa6fa9ef27da9caec4ab4767f6c2",
+      "bytes": 5156,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/train_asvspoof5_adaptation.py",
+      "sha256": "63b284a5fdb235a569c489cdea373d6f884c4684d241376bb561f004a8f0ad12",
+      "bytes": 7878,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/score_asvspoof5_adaptation.py",
+      "sha256": "7bc82fe5c01c949473215a430d1a5df6f7b870a3012f2cd21d68c9730c45df5a",
+      "bytes": 8401,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/analyze_asvspoof5_adaptation.py",
+      "sha256": "9e5785a427b9f3dac87340be5bcee47252f99b7026bb1c6df7d58f38a779b50b",
+      "bytes": 9059,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/validate_asvspoof5_adaptation.py",
+      "sha256": "9cff4aaead748e682ee986d92958437723c8cc028abf90bdd6e583ed0dc423ff",
+      "bytes": 8088,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/prepare_selfcal_confirmation.py",
+      "sha256": "fe36f0ba13dfd97b8cbb24fee048253a4a353dbd8c835711b05cd61a5bc6eafb",
+      "bytes": 2708,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/run_selfcal_confirmation.py",
+      "sha256": "7106f9f2d252f85cd93984a1a53c354e731c8d1ffe49ccce28e9f906010f6ae7",
+      "bytes": 10399,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/execute_selfcal_confirmation.py",
+      "sha256": "bef78a3ec6d46a2daa4fef9ced7637a1a60a7065014873b6568aa22e7f8c6282",
+      "bytes": 382,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/analyze_selfcal_confirmation.py",
+      "sha256": "9c0dbcd6e3d30a58d08e99982220b658a217b53198b9c2e5f09ba623ede31e0c",
+      "bytes": 4469,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/validate_selfcal_confirmation.py",
+      "sha256": "cbbcfa27beb4d0da380ffdcf2b27a816e018b723b8873c1afe8f03589041c9c6",
+      "bytes": 9225,
+      "copy": "Narrative output strings translated into English; validation calculations unchanged.",
+      "release_sha256": "02067c85cbc9281e2d80557f3c5864acc21ffdc00bea8b9680b228257f801990"
+    },
+    {
+      "path": "scripts/run_selfcal_posthoc.py",
+      "sha256": "e65ef85325552498a0800e2552969659b525267e745ab4a8fbda070b0213d4f1",
+      "bytes": 8681,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/validate_selfcal_posthoc.py",
+      "sha256": "b071e7d2973725fbb44529aa8b93202ec8bd5f359ccc980f6f8739a6552cf140",
+      "bytes": 4372,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/run_selfcal_stability.py",
+      "sha256": "fcd46cf9c60d5c52fdcfc1281634475bf6e8370b1cc1afb27b5de8dc0271ed58",
+      "bytes": 5647,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/validate_stability.py",
+      "sha256": "692f9b9918f1cf31907fb80736d5eee3a992e1b62b832c41f48172909fdb784e",
+      "bytes": 3388,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/run_stability_matched_fa.py",
+      "sha256": "cdd8f48bb7ac7e43de63fdf8e37ce72e2cf84315e7301235e82ecfc663e04b66",
+      "bytes": 4499,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/validate_stability_matched_fa.py",
+      "sha256": "54679f39c24cc8140582819664e1f9fc83b1ee0959f336af1012b17f4724ed19",
+      "bytes": 2862,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/pooled_tail.py",
+      "sha256": "8a48f71824fd889eb7bf9e60dafb97de1f0cb4a0f455c7e9f26977b3eabfba2e",
+      "bytes": 4929,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/multidetector_d3.py",
+      "sha256": "27ca5cb9d9e4e2a1b3acccbd1fea4253f721fb9adaeb666ee6711708a7c9492c",
+      "bytes": 8492,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/multidetector_d5_check.py",
+      "sha256": "fd9067f29d29fb2fa5c1646828ad4260666813e349491288f98bdfe296cdba70",
+      "bytes": 6753,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/p1_eda.py",
+      "sha256": "fe3ad34956457e6ec0fae88b9f3d4d95a98222fa15bcf23475f37907b4eceba4",
+      "bytes": 6363,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/p1_enhancement_grid.py",
+      "sha256": "97fd50d8cc299cb116c14ec06043afee5a6598e53990fa632b4211eec3a0bdde",
+      "bytes": 8494,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/run_standard_metrics.py",
+      "sha256": "3093c15fb80b61b381e1c0924f33ec34eb0479ea8e3a0bc1ab67a039f6726300",
+      "bytes": 5147,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "scripts/score_audio.py",
+      "sha256": "d57d18cedfd1461e6176602bfa00cbeb710d646a9738f2293b8e43cd0e9aac88",
+      "bytes": 3134,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_adaptation_v1/analysis/primary.csv",
+      "sha256": "dae357527b2c15ce6bc7739a8515c350a03ce276162c85729a8ad87de75b3465",
+      "bytes": 3998,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_adaptation_v1/analysis/paired_differences.csv",
+      "sha256": "3a8b5d25e667562459ba5f7ab3b5da0b0a737ff3aad5c03547a5de6b87f78fc2",
+      "bytes": 6554,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_adaptation_v1/analysis/ranking_summary.csv",
+      "sha256": "835b04c5fe2afd64d5b39accb02377dc928c6948391c1fd8cc0718d1a01c0cd8",
+      "bytes": 3175,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_adaptation_v1/analysis/source_retention.csv",
+      "sha256": "b5253f7b2b5cd16c1624692ae9e8888d0dcb1413a027037cffb9a00d7bd1a4c8",
+      "bytes": 12143,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_adaptation_v1/analysis/codec_paired.csv",
+      "sha256": "a0a5c17a15feef2ee756fb6fa875f06ad738ce90e74977cf226438cc17fa219f",
+      "bytes": 41402,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_adaptation_v1/analysis/seed_summary.csv",
+      "sha256": "3ba0544da91b3bce747282e90e919e28664aaf7944f94f78c44c71065fdb057e",
+      "bytes": 1406,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_adaptation_v1/audio_audit.json",
+      "sha256": "896e6518f2ba5526cd96973905e74a7fe6865d12bcd6ad51315271a21326a8e1",
+      "bytes": 346,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_selfcal_v1/analysis/family_primary.csv",
+      "sha256": "229ed206c1729e78e6345e54587cc766ecc5c4787e78786af51b5e5bc1ed1942",
+      "bytes": 536,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_selfcal_v1/analysis/summary.csv",
+      "sha256": "711fdf8e38329a65ea23a68339d34e818c480a827073d8b271dff1e0fe0710f8",
+      "bytes": 10204,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/asvspoof5_selfcal_v1/analysis/paired_differences.csv",
+      "sha256": "09c6dae82b9bd21058dfa1caf21386d5f7d767790ea9e3117678bbca22e71fb3",
+      "bytes": 7165,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/p1_eda_v1/cohorts.csv",
+      "sha256": "603e1dabcb6b3e1db74cf37ef86226dd611aff9654af9df7d3ca0b686c979a1e",
+      "bytes": 683,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/multidetector_d3_v1/per_system.csv",
+      "sha256": "2c5c0da3eedd277d09ebaeba5cced3ca625e6bdb7967bacc8fe753c5a4150461",
+      "bytes": 15026,
+      "copy": "byte-identical"
+    },
+    {
+      "path": "results/pooled_tail_v1/summary.json",
+      "sha256": "dc0fb108ba5c30590ba3d8c6894f1ad4759f9d54ba5ba4ffa997916e01240418",
+      "bytes": 3059,
+      "copy": "byte-identical"
+    }
+  ]
+}
